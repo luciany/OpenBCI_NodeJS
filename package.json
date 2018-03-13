@@ -22,7 +22,8 @@
     "performance-now": "^2.1.0",
     "serialport": "4.0.7",
     "sntp": "^2.0.0",
-    "streamsearch": "^0.1.2"
+    "streamsearch": "^0.1.2",
+    "openbci": "3.0.0"
   },
   "directories": {
     "test": "test"
