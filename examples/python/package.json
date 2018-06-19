@@ -6,7 +6,9 @@
   "scripts": {
     "start": "concurrently --kill-others \"python handoff.py\" \"node index.js\"",
     "start-node": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "python",
@@ -16,8 +18,9 @@
   "author": "AJ Keller",
   "license": "MIT",
   "dependencies": {
-    "openbci": "^1.4.2",
-    "zmq-prebuilt": "^2.1.0"
+    "openbci": "^3.0.0",
+    "zmq-prebuilt": "^2.1.0",
+    "snyk": "^1.83.0"
   },
   "devEngines": {
     "node": "<=6.x",
@@ -25,5 +28,6 @@
   },
   "devDependencies": {
     "concurrently": "^3.1.0"
-  }
+  },
+  "snyk": true
 }
