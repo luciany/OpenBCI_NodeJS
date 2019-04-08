@@ -20,7 +20,7 @@
     "gaussian": "^1.0.0",
     "mathjs": "^3.3.0",
     "performance-now": "^2.1.0",
-    "serialport": "4.0.7",
+    "serialport": "6.0.0",
     "sntp": "^2.0.0",
     "streamsearch": "^0.1.2"
   },
